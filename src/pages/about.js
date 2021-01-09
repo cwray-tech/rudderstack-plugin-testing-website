@@ -56,10 +56,10 @@ const links = [
 ];
 
 // markup
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>About Page</title>
       <h1 style={headingStyles}>
         Congratulations
         <br />
@@ -93,4 +93,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default AboutPage;
